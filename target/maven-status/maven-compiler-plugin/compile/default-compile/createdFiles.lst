@@ -1,0 +1,14 @@
+org\example\TablewareDAO.class
+org\example\WebApplication.class
+org\example\UserRepository.class
+org\example\UserController.class
+org\example\WebSecurityConfig.class
+org\example\TablewareController.class
+org\example\ShopUserDetails.class
+org\example\Tableware.class
+org\example\User.class
+org\example\UserDetailsServiceImpl.class
+org\example\UserService.class
+org\example\TablewareService.class
+org\example\DataBaseConfig.class
+org\example\UserValidator.class

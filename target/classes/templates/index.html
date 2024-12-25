@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Главная страница</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<div class="container">
+    <p th:text="'Вы вошли как: ' + ${username}"></p>
+    <div class="logout">
+        <form th:action="@{/logout}" method="post" id="logoutForm" class="delete">
+            <input type="submit" value="Logout" class="btn btn-light">
+        </form>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="/tableware/view">Просмотр записей</a></li>
+            <li><a href="/tableware/add">Добавить запись</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
